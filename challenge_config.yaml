@@ -11,8 +11,8 @@ leaderboard_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 evaluation_script: evaluation_script.zip
 remote_evaluation: False
 is_docker_based: False
-start_date: 2023-03-12 00:00:00
-end_date: 2099-05-31 23:59:59
+start_date: 2023-03-15 00:00:00
+end_date: 2023-03-16 23:59:59
 published: False
 
 leaderboard:
