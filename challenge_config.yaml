@@ -19,7 +19,7 @@ leaderboard:
   - id: 1
     schema:
       {
-        "labels": ["Race Car", "UAV", "Recommender Systems", "Total"],
+        "labels": ["Race Car", "UAV", "Recommender Systems", "Reservoir Control", "HVAC", "Mountain Car", "Mars Rover", "Power Generation", "Total"],
         "default_order_by": "Total"
       }
 
