@@ -16,7 +16,7 @@ remote_evaluation: True
 is_docker_based: True
 start_date: 2023-03-14 00:00:00
 end_date: 2023-03-15 23:59:59
-published: False
+published: True
 
 leaderboard:
   - id: 1
