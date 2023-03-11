@@ -108,11 +108,11 @@ challenge_phases:
 
 dataset_splits:
   - id: 1
-    name: Train Split
-    codename: train_split
+    name: UAV HVAC
+    codename: OR
   - id: 2
-    name: Test Split
-    codename: test_split
+    name: Race Car Mountain Car
+    codename: Control
 
 challenge_phase_splits:
   - challenge_phase_id: 1
@@ -123,13 +123,7 @@ challenge_phase_splits:
     is_leaderboard_order_descending: True
   - challenge_phase_id: 2
     leaderboard_id: 1
-    dataset_split_id: 1
-    visibility: 3
-    leaderboard_decimal_precision: 2
-    is_leaderboard_order_descending: True
-  - challenge_phase_id: 2
-    leaderboard_id: 1
     dataset_split_id: 2
-    visibility: 1
+    visibility: 3
     leaderboard_decimal_precision: 2
     is_leaderboard_order_descending: True
