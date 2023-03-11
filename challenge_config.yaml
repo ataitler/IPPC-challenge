@@ -1,7 +1,10 @@
 # If you are not sure what all these fields mean, please refer our documentation here:
 # https://evalai.readthedocs.io/en/latest/configuration.html
-title: Random Number Generator Challenge
-short_description: Random number generation challenge for each submission
+title: 2023 IPC Stochastic Planning and Reinforcement Learning Track Dry-run
+short_description: The International Probabilistic Planning Competition is organized in the context of the International Conference on 
+Planning and Scheduling (ICAPS). It empirically evaluates state-of-the-art planning systems on a number of benchmark problems. 
+The goals of the IPC are to promote planning research, highlight challenges in the planning community and provide new and interesting problems as 
+benchmarks for future research.
 description: templates/description.html
 evaluation_details: templates/evaluation_details.html
 terms_and_conditions: templates/terms_and_conditions.html
