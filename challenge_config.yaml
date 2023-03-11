@@ -20,17 +20,7 @@ leaderboard:
     schema:
       {
         "labels": ["Race Car", "UAV", "Recommender Systems", "Total"],
-        "default_order_by": "Total",
-        "metadata": {
-          "Race Car": {
-            "sort_ascending": True,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          },
-          "UAV": {
-            "sort_ascending": True,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          }
-        }
+        "default_order_by": "Total"
       }
 
 challenge_phases:
