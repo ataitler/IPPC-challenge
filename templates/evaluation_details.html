@@ -1,1 +1,20 @@
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+<!--<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>-->
+
+After June 8, 2023, competitor container submissions will be evaluated using an 8-core CPU (no GPU)
+with 32Gb of RAM (exact specifications TBD) on 50 randomized trials for each of the 8 competition
+domains and the 5 instances released during the competition.
+
+The average over all 50 trails will be taken as the raw score for each instance.
+
+Normalized [0,1] instance scores will be computed according to the following lower and upper bounds:
+- 0: max(noop policy, random policy).
+- 1: max(JaxPlanner, best competing method).
+
+A planner that does worse than 0 on this normalized scale will receive a 0. Each trial has a 2 minute
+time limit; failure to execute any trial (e.g., crash) for an instance or exceeding the time limit in any trial
+for an instance will lead to overall normalized score of 0 for that instance. No competitor can exceed a
+score of 1, by definition.
+
+Normalized domain scores will be computed as an average of normalized instance scores.
+
+An overall competition score will be computed as an average of normalized domain scores.
