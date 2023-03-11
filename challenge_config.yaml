@@ -19,14 +19,14 @@ leaderboard:
   - id: 1
     schema:
       {
-        "labels": ["Metric1", "Metric2", "Metric3", "Total"],
+        "labels": ["Race Car", "UAV", "Recommender Systems", "Total"],
         "default_order_by": "Total",
         "metadata": {
-          "Metric1": {
+          "Race Car": {
             "sort_ascending": True,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           },
-          "Metric2": {
+          "UAV": {
             "sort_ascending": True,
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           }
